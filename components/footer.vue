@@ -23,14 +23,14 @@
               <p class="text-lg font-bold">Puddle Jumping</p>
             </div>
             <div class="flex space-x-4">
-              <a href="#" class="text-white">ABOUT ME</a>
-              <a href="#" class="text-white">BLOG</a>
-              <a href="#" class="text-white">VIDEOS</a>
-              <a href="#" class="text-white">CONTACT</a>
-              <a href="#" class="text-white">DONATE</a>
+              <NuxtLink to="/moreAboutMe" class="text-white hover:underline block mb-4">About Me</NuxtLink>
+              <NuxtLink to="/blog" class="text-white hover:underline block mb-4">Blog</NuxtLink>
+              <NuxtLink to="/videos" class="text-white hover:underline block mb-4">Videos</NuxtLink>
+              <NuxtLink to="/contact" class="text-white hover:underline block mb-4">Contact</NuxtLink>
+              <NuxtLink to="/donate" class="text-white hover:underline block mb-4">Donate</NuxtLink>
             </div>
             <div class="flex space-x-4">
-              <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+              <a href="https://x.com/pudd1ejump3r"><i class="fa-brands fa-twitter fa-2x"></i></a>
               <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
             </div>
           </div>

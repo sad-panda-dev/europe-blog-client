@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar">
       <div class="navbar-brand">
-        <a class="navbar-item" href="#">
+        <a class="navbar-item" href="/">
           Puddle Jumping
         </a>
       </div>
@@ -14,7 +14,7 @@
           <nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
         </div>
         <div class="navbar-end">
-          <a class="navbar-item" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="navbar-item" href="https://x.com/pudd1ejump3r"><i class="fa-brands fa-twitter"></i></a>
           <a class="navbar-item" href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>
       </div>
