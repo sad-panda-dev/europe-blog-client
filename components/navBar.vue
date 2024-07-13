@@ -2,7 +2,7 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <a class="navbar-item" href="#">
-          Supertramp
+          Puddle Jumping
         </a>
       </div>
       <div class="navbar-menu">
