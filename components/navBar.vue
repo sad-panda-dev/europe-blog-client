@@ -14,7 +14,6 @@
           <nuxt-link class="navbar-item" to="/contact">Contact</nuxt-link>
         </div>
         <div class="navbar-end">
-          <a class="navbar-item" href="#"><i class="fa-brands fa-facebook-f"></i></a>
           <a class="navbar-item" href="#"><i class="fa-brands fa-twitter"></i></a>
           <a class="navbar-item" href="#"><i class="fa-brands fa-instagram"></i></a>
         </div>

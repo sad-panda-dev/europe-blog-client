@@ -1,9 +1,7 @@
 <template>
     <div>
       <NavBar />
-      <!-- Rest of your content goes here -->
       <section>
-        <!-- Example of main content -->
         <div class="main-content">
           <img src="../assets/micael-rodrigues-G3XXUyKYmHo-unsplash.jpg" alt="Navigating Mountains In Durmitor National Park" class="hero-image">
           <div class="overlay">
@@ -13,17 +11,27 @@
           </div>
         </div>
       </section>
+      <AboutMe />
+      <section>
+        <p>____________________________________________________________________________________________________________________________________________________________________________________________</p>
+      </section>
+      <Footer />
     </div>
   </template>
   
   <script lang="ts">
   import { defineComponent } from 'vue';
   import NavBar from '../components/navBar.vue';
+  import Footer from '../components/footer.vue';
+  import aboutMe from '../components/aboutMe.vue';
+import AboutMe from '../components/aboutMe.vue';
   
   export default defineComponent({
     name: 'IndexPage',
     components: {
-      NavBar
+      NavBar,
+      Footer,
+      AboutMe
     }
   });
   </script>
