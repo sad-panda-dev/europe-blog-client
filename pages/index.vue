@@ -11,6 +11,7 @@
           </div>
         </div>
       </section>
+      <LocationLinks />
       <AboutMe />
       <section>
         <p>____________________________________________________________________________________________________________________________________________________________________________________________</p>
@@ -23,15 +24,16 @@
   import { defineComponent } from 'vue';
   import NavBar from '../components/navBar.vue';
   import Footer from '../components/footer.vue';
-  import aboutMe from '../components/aboutMe.vue';
-import AboutMe from '../components/aboutMe.vue';
+  import AboutMe from '../components/aboutMe.vue';
+  import LocationLinks from '../components/locationLinks.vue';
   
   export default defineComponent({
     name: 'IndexPage',
     components: {
       NavBar,
       Footer,
-      AboutMe
+      AboutMe,
+      LocationLinks
     }
   });
   </script>

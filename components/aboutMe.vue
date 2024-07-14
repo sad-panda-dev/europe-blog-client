@@ -10,12 +10,8 @@
             I am a software developer, and an ex chef of over 15 years experience. I enjoy traveling and experiencing different cultures
             food and sights. I share my adventures in hopes to inspire anyone with a similar curiosity and wanderlust.
           </p>
-          <NuxtLink to="/moreAboutMe" class="text-blue-500 hover:underline block mb-4">More About Me</NuxtLink>
-          <!-- <a href="/MoreAboutMe" class="text-blue-500 hover:underline block mb-4">More About Me</a> -->
           <div class="flex justify-center md:justify-start space-x-4">
-            <a href="#" class="text-blue-500 hover:text-blue-700">
-              <i class="fab fa-facebook-square fa-2x"></i>
-            </a>
+            <NuxtLink to="/moreAboutMe" class="text-blue-500 hover:underline block mb-4">More About Me</NuxtLink>
             <a href="#" class="text-blue-500 hover:text-blue-700">
               <i class="fab fa-twitter-square fa-2x"></i>
             </a>
